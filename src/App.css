@@ -1,5 +1,4 @@
 .header{
-  
   margin-top: 0;
   font-family: 'Poppins',sans-serif;
   width: 100%;
@@ -14,23 +13,11 @@
   text-align: center;
   background-color:rgb(202, 226, 247) ;
 }
-.content{
-  text-align: center;
-  width: 100%;
-  position: fixed;
-  top: 20%;
-  overflow:visible;
-  /* background-color:black; */
-}
+
 li{
   font-family: "Poppins";
   text-align: center;
-  /* margin-top:2% ; */
   width:100%;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
-  /* background-color: #f1f1f9; */
 }
 input[type="checkbox"]{
 font-family: "Poppins";
@@ -60,12 +47,17 @@ label{
     padding-left: 3%;
   
 }
+#trash:hover{
+  color: red;
+  outline: none;
+}
 .btnPlus{
+  border: none;
+  background: none;
   text-align: center;
   padding-top: 1%;
   transform:translateX(50%);
   padding-left: 3%;
-  
   height:5%;
 }
 .empty{

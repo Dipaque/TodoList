@@ -2,13 +2,14 @@ import Header from './Header';
 import Content from './Content';
 import './App.css';
 import Footer from './Footer';
-import { useState } from 'react';
+import { useState ,useEffect } from 'react';
 import AddItems from './AddItems';
 import SearchItem from './SearchItem';
 
 
 function App() {
-  const [items, setItems] = useState(JSON.parse(localStorage.getItem("notesapp")));
+  const [items, setItems] = useState(
+    JSON.parse(localStorage.getItem("notesapp")));
   const [newItem, setNewItem] = useState('');
   const [searchItem,setSearchItem] = useState('');
   const addNewItem = (msg) => {
@@ -36,7 +37,7 @@ function App() {
     setNewItem('')
 
   }
-  
+ 
 
   return (
     <main>

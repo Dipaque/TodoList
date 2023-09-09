@@ -19,7 +19,7 @@ const Content = ({items,handleCheck,handleDelete}) => {
             <label onDoubleClick={()=>handleCheck(item.id)}>{item.msg}</label>
             </div>
             <div className="col ">
-            <button onClick={()=>handleDelete(item.id)} className='btn'><FaTrash /></button>
+            <button onClick={()=>handleDelete(item.id)} className='btnPlus'><FaTrash id='trash' /></button>
             </div>
             </div>
           </li>
