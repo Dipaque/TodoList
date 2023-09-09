@@ -1,0 +1,74 @@
+.header{
+  
+  margin-top: 0;
+  font-family: 'Poppins',sans-serif;
+  width: 100%;
+  background-color: rgb(202, 226, 247);
+}
+.footer{
+  position: fixed;
+  font-family: 'Poppins',sans-serif;
+  bottom: 0;
+  margin-bottom: 0;
+  width:100%;
+  text-align: center;
+  background-color:rgb(202, 226, 247) ;
+}
+.content{
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  top: 20%;
+  overflow:visible;
+  /* background-color:black; */
+}
+li{
+  font-family: "Poppins";
+  text-align: center;
+  /* margin-top:2% ; */
+  width:100%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* background-color: #f1f1f9; */
+}
+input[type="checkbox"]{
+font-family: "Poppins";
+height:1.52rem;
+width:1.5rem;
+margin-right:3%;
+margin-top: 2%;
+}
+label{
+  cursor: pointer;
+}
+.addItem{
+  border:2px solid grey;
+  border-radius: 25px;
+  height: 3rem;
+  width:50%;
+  margin-left: 25%;
+  padding-left: 3%;
+}
+.searchItem{
+    
+    border:2px solid grey;
+    border-radius: 25px;
+    height: 3rem;
+    width:50%;
+    margin-left: 25%;
+    padding-left: 3%;
+  
+}
+.btnPlus{
+  text-align: center;
+  padding-top: 1%;
+  transform:translateX(50%);
+  padding-left: 3%;
+  
+  height:5%;
+}
+.empty{
+  font-family: "Poppins";
+  font-weight: 600;
+}
